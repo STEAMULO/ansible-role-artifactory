@@ -1,0 +1,16 @@
+
+- name: 'stop artifactory'
+  become: yes
+  service: name=artifactory state=stopped
+  tags:
+    - init
+
+- name: 'start artifactory'
+  become: yes
+  service: name=artifactory state=started
+  tags:
+    - init
+
+- name: 'restart artifactory'
+  become: yes
+  service: name=artifactory state=restarted

@@ -1,0 +1,2 @@
+artifactory_url: "https://bintray.com/artifact/download/jfrog/artifactory-debs/pool/main/j/jfrog-artifactory-oss-deb/jfrog-artifactory-oss-{{artifactory_version}}.deb"
+artifactory_pgp_id: 6B219DCCD7639232
