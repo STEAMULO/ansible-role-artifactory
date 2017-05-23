@@ -1,2 +1,2 @@
-artifactory_url: "https://bintray.com/artifact/download/jfrog/artifactory-debs/pool/main/j/jfrog-artifactory-oss-deb/jfrog-artifactory-oss-{{artifactory_version}}.deb"
+artifactory_url: "https://akamai.bintray.com/0a/0a7dc0b1207bed5dd06463a50fcee49f49476de1c050b5be12a9dc61d95ba77b?__gda__=exp=1495545729~hmac=3b4fde1f324cd41084892443fa8a98523b8ed0d4cc6c57a9d839703868195d33&response-content-disposition=attachment%3Bfilename%3D%22jfrog-artifactory-oss-{{artifactory_version}}.deb%22&response-content-type=application%2Fx-debian-package&requestInfo=U2FsdGVkX1-07Wbnnw5QMQGFEDn7B205LmDlR4DPZivvUc6exGUZiofMT8sy1xlh8PiPJu5smtSuA9fyzyWQKhuh4-C--OwD3CsiisWB0UE9I_Zd6Y4x1Fhnkjpq15CSE-kX1XJJLhqrhn38iKSKlQ"
 artifactory_pgp_id: 6B219DCCD7639232
