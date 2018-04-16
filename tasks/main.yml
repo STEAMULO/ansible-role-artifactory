@@ -2,10 +2,10 @@
   apt_key: keyserver=pgpkeys.mit.edu id={{artifactory_pgp_id}}
 
 - name: download debian package
-  get_url: url={{artifactory_url}} dest=/tmp/artifactory.deb
+  get_url: url={{artifactory_url}} dest=/tmp/artifactory-{{artifactory_version}}.deb
 
 - name: install artifactory package
-  apt: deb=/tmp/artifactory.deb
+  apt: deb=/tmp/artifactory-{{artifactory_version}}.deb
 
 - name: start artifactory
   service: name=artifactory state=started
